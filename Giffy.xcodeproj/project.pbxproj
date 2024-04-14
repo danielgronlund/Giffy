@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		658DCE002BCC467F00A724BF /* GiffyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DCDFF2BCC467F00A724BF /* GiffyApp.swift */; };
-		658DCE022BCC467F00A724BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DCE012BCC467F00A724BF /* ContentView.swift */; };
 		658DCE042BCC467F00A724BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658DCE032BCC467F00A724BF /* Assets.xcassets */; };
 		658DCE072BCC467F00A724BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 658DCE062BCC467F00A724BF /* Preview Assets.xcassets */; };
+		658DCE0F2BCC47A000A724BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DCE0E2BCC47A000A724BF /* AppDelegate.swift */; };
+		65E08D862BCC4BEB00B48975 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65E08D852BCC4BEB00B48975 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		658DCDFC2BCC467F00A724BF /* Giffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		658DCDFF2BCC467F00A724BF /* GiffyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiffyApp.swift; sourceTree = "<group>"; };
-		658DCE012BCC467F00A724BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		658DCE032BCC467F00A724BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		658DCE062BCC467F00A724BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		658DCE082BCC467F00A724BF /* Giffy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Giffy.entitlements; sourceTree = "<group>"; };
+		658DCE0E2BCC47A000A724BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E08D852BCC4BEB00B48975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				658DCDFF2BCC467F00A724BF /* GiffyApp.swift */,
-				658DCE012BCC467F00A724BF /* ContentView.swift */,
+				658DCE0E2BCC47A000A724BF /* AppDelegate.swift */,
+				65E08D852BCC4BEB00B48975 /* Info.plist */,
 				658DCE032BCC467F00A724BF /* Assets.xcassets */,
 				658DCE082BCC467F00A724BF /* Giffy.entitlements */,
 				658DCE052BCC467F00A724BF /* Preview Content */,
@@ -129,6 +132,7 @@
 			files = (
 				658DCE072BCC467F00A724BF /* Preview Assets.xcassets in Resources */,
 				658DCE042BCC467F00A724BF /* Assets.xcassets in Resources */,
+				65E08D862BCC4BEB00B48975 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				658DCE022BCC467F00A724BF /* ContentView.swift in Sources */,
+				658DCE0F2BCC47A000A724BF /* AppDelegate.swift in Sources */,
 				658DCE002BCC467F00A724BF /* GiffyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +283,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Giffy/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +311,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Giffy/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
